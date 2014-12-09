@@ -13,13 +13,15 @@ class Mac
     end  
 
     def open
-    	case $arg_one
+    	case $param_one
     	when '@php'
     		exec 'open '+$php_folder
     	when '@rails'
     		exec 'open '+$rails_folder
-    	when '@js' || '@javascript'
+    	when '@js' 
     		exec 'open '+$js_folder
+        when '@javascript'
+            exec 'open '+$js_folder
     	else
     		exec 'open '+$sites_folder
     	end

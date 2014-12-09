@@ -13,7 +13,11 @@ class Javascript
     end  
 
     def open
-        puts "open js folder"
+        if $param_one
+            system 'open -a '+$sublime_app+' '+$js_folder+'/'+$param_one
+        else
+            system 'open -a '+$sublime_app+' '+$js_folder
+        end 
     end
 
 

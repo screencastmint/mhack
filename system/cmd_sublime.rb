@@ -14,10 +14,10 @@ class Sublime
 
     def open
 
-    	if !$arg_one
+    	if !$param_one
 			exec 'open -a '+$sublime_app+' "`$pwd`"'
 		else
-			exec 'open -a '+$sublime_app+' '+$arg_one
+			exec 'open -a '+$sublime_app+' '+$param_one
 		end
     end
 end

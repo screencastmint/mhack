@@ -22,10 +22,11 @@ class Rails
     end
 
     def open
-    end
-
-    def create
-    	exec 'cd '+$rails_folder+';rails new '+@folder_name+';open -a '+$sublime_app+' '+$rails_folder+'/'+@folder_name
+        if $param_one
+            system 'open -a '+$sublime_app+' '+$php_folder+'/'+$param_one
+        else
+            system 'open -a '+$sublime_app+' '+$php_folder
+        end 
     end
 
     def composer

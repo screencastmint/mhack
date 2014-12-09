@@ -22,7 +22,7 @@ class Rails
 
     # > mhack @rails :open site_name
     def open
-    	system 'open -a '+$sublime_app+' '+$rails_folder+'/'+$arg_one
+    	system 'open -a '+$sublime_app+' '+$rails_folder+'/'+$param_one
     end 
 
     def create
