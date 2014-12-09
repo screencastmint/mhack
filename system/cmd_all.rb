@@ -8,7 +8,7 @@ class All
     	when ":help"
     		help
     	else
-    		"Unknow :cmd !"
+    		"Unknow :action !"
     	end
     end  
 

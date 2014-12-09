@@ -10,7 +10,7 @@ class Rails
     	when ":new"
     		create
     	else
-    		"Unknow :cmd !"
+    		"Unknow :action !"
     	end
     end 
 

@@ -12,7 +12,7 @@ class Codeigniter
     	when ":new"
     		create
     	else
-    		"Unknow :cmd !"
+    		"Unknow :action !"
     	end
     end  
 

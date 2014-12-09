@@ -8,9 +8,6 @@ require_relative 'cmd_sublime'
 
 class Dispatcher
 
-	def initialize
-		   
-    end  
 
     def dispatcher
 
@@ -50,7 +47,7 @@ class Dispatcher
     		app = Sublime.new()
     		app.cmd
     	else
-    		puts "Unknown @technology !"
+    		puts "Unknown @techno !"
     	end
 
     end

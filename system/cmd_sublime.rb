@@ -8,7 +8,7 @@ class Sublime
     	when ":open"
     		open
     	else
-    		"Unknow :cmd !"
+    		"Unknow :action !"
     	end
     end  
 

@@ -5,9 +5,6 @@ require_relative 'system/dispatcher'
 
 class Main
 
-	def initialize()  		
-    end
-
 	def main
 		d = Dispatcher.new()
 		d.dispatcher

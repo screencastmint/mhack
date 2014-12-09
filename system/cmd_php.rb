@@ -14,7 +14,7 @@ class Rails
         when ":composer"
             composer
     	else
-    		"Unknow :cmd !"
+    		"Unknow :action !"
     	end
     end  
 

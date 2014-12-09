@@ -8,7 +8,7 @@ class Javascript
     	when ":open"
     		open
     	else
-    		"Unknow :cmd !"
+    		"Unknow :action !"
     	end
     end  
 
