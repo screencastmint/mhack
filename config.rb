@@ -6,7 +6,12 @@ $mhack_ref = $mhack_folder+'/ref'
 $mhack_ci = $mhack_ref+'/codeigniter'
 
 #App path
+$pgadmin_app = '/Path/To/pgAdmin3.app'
 $sublime_app = '/Path/To/Sublime\ Text\ 2.app'
+
+#Web path
+$chrome_app = '/Path/To/Google\ Chrome.app'
+$firefox_app = '/Path/To/Firefox.app'
 
 #--Folders
 #Sites
