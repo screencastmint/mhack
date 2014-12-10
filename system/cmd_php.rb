@@ -1,4 +1,4 @@
-class Rails
+class Php
 
     def cmd
     	case $cmd
@@ -15,7 +15,10 @@ class Rails
     	end
     end  
 
+    # > mhack @php :help
     def help
+        puts ":open           Open codeigniter website"
+        puts ":new            Create new codeigniter application"
     end
 
     def open

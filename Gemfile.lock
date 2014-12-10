@@ -1,0 +1,12 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.3.6)
+    launchy (2.4.3)
+      addressable (~> 2.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  launchy (~> 2.4.3)

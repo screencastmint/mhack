@@ -17,7 +17,6 @@ class Javascript
         end 
     end
 
-
 end
 
 

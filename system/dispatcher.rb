@@ -4,6 +4,7 @@ require_relative 'cmd_mac'
 require_relative 'cmd_php'
 require_relative 'cmd_rails'
 require_relative 'cmd_sublime'
+require_relative 'cmd_web'
 
 
 class Dispatcher
@@ -40,6 +41,9 @@ class Dispatcher
     	when "@sublime"
     		app = Sublime.new()
     		app.cmd
+        when "@web"
+            techno = Web.new()
+            techno.cmd
     	else
     		puts "Unknown @techno !"
     	end

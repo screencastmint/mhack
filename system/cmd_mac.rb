@@ -5,9 +5,17 @@ class Mac
     	case $cmd
     	when ":open"
     		open
+        when ":help"
+            help
     	else
     		"Unknow :action !"
     	end
+    end
+
+    # > mhack @mac :help
+    def help
+        puts ":open           Open folder"
+        puts ":new            Make file or directory..."
     end  
 
     def open
@@ -24,6 +32,7 @@ class Mac
     		exec 'open '+$sites_folder
     	end
     end
+
 
 
 end
