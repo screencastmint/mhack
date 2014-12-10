@@ -31,9 +31,9 @@ Mhack is a small ruby script that includes a set of commands with the same logic
 Requirements : You need Mac and ruby 2.x
 
  1. Copy the folder where you want
- 2. Add an alias into .bash_profile to this folder
+ 2. Add an alias into .bash_profile to this main.rb
 
-     alias mhack='ruby  /path_to_folder/Mhack/main.rb'
+    alias mhack='ruby /Path/To/Folder/Mhack/main.rb'
 
  3. Edit config.rb 
- 4.  Have fun !
+ 4. Launch terminal and have fun !
