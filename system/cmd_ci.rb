@@ -1,8 +1,5 @@
 class Codeigniter
 
-	def initialize()   
-    end
-
     def cmd
     	case $cmd
     	when ":help"

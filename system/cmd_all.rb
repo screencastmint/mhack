@@ -1,8 +1,5 @@
 class All
 
-	def initialize()   
-    end 
-
     def cmd
     	case $cmd
     	when ":help"

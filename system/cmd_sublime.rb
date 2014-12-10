@@ -1,8 +1,5 @@
 class Sublime
 
-	def initialize()   
-    end  
-
     def cmd
     	case $cmd
     	when ":open"

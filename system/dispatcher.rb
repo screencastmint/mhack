@@ -19,10 +19,7 @@ class Dispatcher
     	when "@all"
     		all = All.new()
     		all.cmd
-    	when "@codeigniter"
-    		techno = Codeigniter.new()
-    		techno.cmd
-    	when "@ci"
+    	when "@codeigniter", "@ci"
     		techno = Codeigniter.new()
     		techno.cmd
     	when "@php"
@@ -34,10 +31,7 @@ class Dispatcher
     	when "@ruby"
     		techno = Ruby.new()
     		techno.cmd
-    	when "@javascript" 
-    		techno = Javascript.new()
-    		techno.cmd
-    	when "@js"
+    	when "@javascript", "@js" 
     		techno = Javascript.new()
     		techno.cmd
     	when "@mac"

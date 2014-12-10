@@ -1,7 +1,5 @@
 class Mac
 
-	def initialize()   
-    end 
 
     def cmd
     	case $cmd
@@ -18,10 +16,10 @@ class Mac
     		exec 'open '+$php_folder
     	when '@rails'
     		exec 'open '+$rails_folder
-    	when '@js' 
+    	when '@js', '@javascript' 
     		exec 'open '+$js_folder
-        when '@javascript'
-            exec 'open '+$js_folder
+        when '@ci', '@codeigniter' 
+            exec 'open '+$ci_folder
     	else
     		exec 'open '+$sites_folder
     	end

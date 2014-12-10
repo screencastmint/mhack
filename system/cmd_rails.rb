@@ -1,8 +1,5 @@
 class Rails
 
-	def initialize()   
-    end 
-
     def cmd
     	case $cmd
     	when ":open"
