@@ -17,8 +17,7 @@ Mhack is a small ruby script that includes a set of commands with the same logic
  - Useful in case of memory hole 
  - Easy to use
  - Easy to understand
- - A friend who organizes your mac
- - My first ruby script
+ - Easy to edit
 
 
 ***Mhack is not :***
@@ -29,7 +28,7 @@ Mhack is a small ruby script that includes a set of commands with the same logic
 ----------
 
 
-Requirements : You need Mac and ruby 2.x
+Requirements : You need Mac and Ruby 2.x
 
  1. Copy the folder where you want
  2. Run bundler from Mhack folder
@@ -71,7 +70,7 @@ To see all technologies :
 
  ----------
 
- #Actions
+#Actions
 
 
 ***Standard actions :***
