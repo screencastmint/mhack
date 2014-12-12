@@ -4,9 +4,11 @@ GEM
     addressable (2.3.6)
     launchy (2.4.3)
       addressable (~> 2.3)
+    rainbow (2.0.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   launchy (~> 2.4.3)
+  rainbow

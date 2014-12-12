@@ -2,6 +2,8 @@ class Rails
 
     def cmd
     	case $cmd
+        when ":help"
+            help
     	when ":open"
     		open
     	when ":new"
@@ -13,8 +15,10 @@ class Rails
 
     # > mhack @rails :help
     def help
-    	puts ":open           Open rails website"
-    	puts ":new            Create new rails application"
+        puts ""
+        puts Rainbow(":open").color("#D65200")+"              Open Ruby On Rails website"
+        puts Rainbow(":new").color("#D65200")+"               Create new Rails app"
+        puts ""
     end
 
     # > mhack @rails :open site_name
@@ -22,6 +26,7 @@ class Rails
     	system 'open -a '+$sublime_app+' '+$rails_folder+'/'+$param_one
     end 
 
+    # > mhack @rails :new site_name
     def create
     	exec 'cd '+$rails_folder+';rails new '+@folder_name+';open -a '+$sublime_app+' '+$rails_folder+'/'+@folder_name
     end

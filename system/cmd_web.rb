@@ -5,8 +5,8 @@ class Web
 
     def cmd
     	case $cmd
-    	when ":launch"
-    		launch
+    	when ":open"
+    		open
         when ":help"
             help
     	else
@@ -16,11 +16,13 @@ class Web
 
     # > mhack @rails :help
     def help
-    	puts ":launch         Launch website"
+    	puts ""
+        puts Rainbow(":open").color("#D65200")+"              Open / launch website"
+        puts ""
     end
 
     # > mhack @web :launch site
-    def launch
+    def open
     	Launchy.open( "http://www.#{$param_one}" )
     end 
 

@@ -17,8 +17,11 @@ class Php
 
     # > mhack @php :help
     def help
-        puts ":open           Open codeigniter website"
-        puts ":new            Create new codeigniter application"
+        puts ""
+        puts Rainbow(":open").color("#D65200")+"               Open PHP website"
+        puts Rainbow(":composer").color("#D65200")+"           Run composer"
+        puts ""
+
     end
 
     def open

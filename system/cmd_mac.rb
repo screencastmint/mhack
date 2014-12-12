@@ -14,8 +14,9 @@ class Mac
 
     # > mhack @mac :help
     def help
-        puts ":open           Open folder"
-        puts ":new            Make file or directory..."
+        puts ""
+        puts Rainbow(":open").color("#D65200")+"           Open folder"
+        puts ""
     end  
 
     def open
@@ -33,6 +34,8 @@ class Mac
     	end
     end
 
-
+    def new
+        #Make file or directory....
+    end
 
 end

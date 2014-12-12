@@ -2,11 +2,19 @@ class Javascript
 
     def cmd
     	case $cmd
+        when ":help"
+            help
     	when ":open"
     		open
     	else
     		"Unknow :action !"
     	end
+    end
+
+    def help 
+        puts ""
+        puts Rainbow(":open").color("#D65200")+"           Open Javascript website"
+        puts ""
     end  
 
     def open

@@ -1,5 +1,7 @@
+require 'rainbow'
 require_relative 'cmd_all'
 require_relative 'cmd_ci'
+require_relative 'cmd_js'
 require_relative 'cmd_mac'
 require_relative 'cmd_php'
 require_relative 'cmd_rails'

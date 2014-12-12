@@ -34,7 +34,7 @@ Requirements : You need Mac and ruby 2.x
  1. Copy the folder where you want
  2. Run bundler from Mhack folder
 
-	> bundle install
+	bundle install
 
  3. Add an alias into .bash_profile to this main.rb
 
@@ -52,7 +52,7 @@ Requirements : You need Mac and ruby 2.x
 
 ***Mac applications :***
 
- - @sublime => Sublime text 2 
+ - **@sublime** => Sublime text 2 
 
 ***Website :***
  - **@rails** => Ruby On Rails
@@ -63,3 +63,24 @@ Requirements : You need Mac and ruby 2.x
  - **@web** => Use default browser
  - **@mac** => Mac OSx
  - **@all** => All technologies 
+
+
+To see all technologies :
+
+    > mhack @all :help  
+
+ ----------
+
+ #Actions
+
+
+***Standard actions :***
+
+ - **:help** => See the documentation of @
+ - **:new** => Create project, file, document... with @ 
+ - **:open** => Open webpage, folder, file... with @
+ 
+
+To see actions of a techno :
+
+    > mhack @techno :help  

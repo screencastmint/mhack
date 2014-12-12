@@ -15,8 +15,10 @@ class Codeigniter
 
     # > mhack @codeigniter :help
     def help
-    	puts ":open           Open codeigniter website"
-    	puts ":new            Create new codeigniter application"
+        puts ""
+    	puts Rainbow(":open").color("#D65200")+"           Open codeigniter website"
+    	puts Rainbow(":new").color("#D65200")+"            Create new codeigniter application"
+        puts ""
     end
 
     # > mhack @codeigniter :open site_name
