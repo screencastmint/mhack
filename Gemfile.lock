@@ -2,13 +2,17 @@ GEM
   remote: https://rubygems.org/
   specs:
     addressable (2.3.6)
+    fileutils (0.7)
+      rmagick (>= 2.13.1)
     launchy (2.4.3)
       addressable (~> 2.3)
     rainbow (2.0.0)
+    rmagick (2.13.4)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  fileutils (~> 0.7)
   launchy (~> 2.4.3)
   rainbow
