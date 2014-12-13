@@ -74,7 +74,7 @@ class Mac
     end
 
     def today
-        exec 'cal'
+        exec 'date'
     end
 
 end

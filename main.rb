@@ -3,12 +3,10 @@ require_relative 'system/core'
 require_relative 'system/dispatcher'
 
 class Main
-	def main
+	def self.launch
 		d = Dispatcher.new()
 		d.dispatcher
 	end	
 end
 
-m = Main.new()
-m.main
 

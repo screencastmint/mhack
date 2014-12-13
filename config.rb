@@ -6,6 +6,7 @@ $mhack_ref = $mhack_folder+'/ref'
 $mhack_ci = $mhack_ref+'/codeigniter'
 
 #App path
+$editor_app = '/Path/To/Editor.app'
 $pgadmin_app = '/Path/To/pgAdmin3.app'
 $sublime_app = '/Path/To/Sublime\ Text\ 2.app'
 
