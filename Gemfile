@@ -9,6 +9,20 @@ gem 'rainbow'
 #Create, files, directory ...
 gem 'fileutils', '~> 0.7'
 
+#LIST OF MHACKMD
 
-# HTML, XML, SAX, and Reader parser
-# gem 'nokogiri', '~> 1.6.5'
+#Mhackmd for gem commands
+gem 'mhackmd_gem'
+
+#Mhackmd for editor commands
+gem 'mhackmd_editor'
+
+#Mhackmd for rails commands
+gem 'mhackmd_rails'
+
+#Mhackmd for web commands
+gem 'mhackmd_web'
+
+
+
+
