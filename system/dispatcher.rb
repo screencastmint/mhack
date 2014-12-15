@@ -13,9 +13,6 @@ class Dispatcher
         when "@all"
             all = MhackmdAll::ALL.new()
             all.cmd
-    	when "@brew"
-            techno = MhackmdBrew::BREW.new()
-            techno.cmd
         when "@gem"
             techno = MhackmdGem::GEM.new()
             techno.cmd
