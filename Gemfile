@@ -1,8 +1,5 @@
 source 'https://rubygems.org'
 
-# Launching external application from ruby
-gem 'launchy', '~> 2.4.3'
-
 # Set text and background color on ruby console
 gem 'rainbow'
 
