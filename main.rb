@@ -1,5 +1,6 @@
 require_relative 'config'
 require_relative 'mhack_modules'
+require_relative 'mhackmd_all'
 require_relative 'system/core'
 require_relative 'system/dispatcher'
 require 'rubygems'
