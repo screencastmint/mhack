@@ -47,21 +47,16 @@ Requirements : You need Mac and Ruby 2.x
 
 #Technologies
 
+By default, Mhack included some technologies. You can easily add or create other technology with gem mhackmd_technologie.
 
+***Technologies by default :***
 
-***Mac applications :***
-
- - **@sublime** => Sublime text 2 
-
-***Website :***
- - **@rails** => Ruby On Rails
- - **@php** => Php language
- - **@codeigniter** or **@ci** => Codeigniter, php framework
-
-***Others :***
+ - **@all** => To see all technologies
+ - **@gem** => Commands for manage gem
+ - **@editor** => Use default text editor
+ - **@rails** => Ruby On Rails commands
  - **@web** => Use default browser
- - **@mac** => Mac OSx
- - **@all** => All technologies 
+
 
 
 To see all technologies :
@@ -75,11 +70,11 @@ To see all technologies :
 
 ***Standard actions :***
 
- - **:help** => See the documentation of @
- - **:new** => Create project, file, document... with @ 
- - **:open** => Open webpage, folder, file... with @
+ - **:help** => See the documentation of @techno
+ - **:new** => Create project, file, document... with @techno 
+ - **:open** => Open webpage, folder, file... with @techno
  
 
-To see actions of a techno :
+To see Actions of a specific technology :
 
     > mhack @techno :help  
