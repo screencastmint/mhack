@@ -15,7 +15,7 @@ Mhack is a small ruby script that includes a set of commands with the same logic
 
  - **Techno** are prefixed by @
  - **Action** are prefixed by :
- - **Keyword** are prefixed by #
+ - **Keyword** Capitalize the keyword
  - **Params** have no prefixes
     
 ----------
