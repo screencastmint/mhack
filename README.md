@@ -1,7 +1,8 @@
 Mhack
 =====
 
-Mhack is a small ruby script that includes a set of commands with the same logic "**Techno Action Params**"
+Mhack is a small ruby script that includes a set of commands with the same logic "**Techno Action and (Keyword and/or Params)**"
+
 
 #Logic
 
@@ -9,7 +10,13 @@ Mhack is a small ruby script that includes a set of commands with the same logic
 
 #Example  
 
-    > mhack @codeigniter :new project_name  
+    > mhack @gem :new gem_name 
+
+
+ - **Techno** are prefixed by @
+ - **Action** are prefixed by :
+ - **Keyword** are prefixed by #
+ - **Params** have no prefixes
     
 ----------
 ***Mhack is :***
