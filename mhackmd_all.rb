@@ -6,7 +6,9 @@ module MhackmdAll
 	    	when ":help"
 	    		help
 	    	else
-	    		"Unknow :action !"
+	    		puts ""
+            	puts Rainbow("/!\\ Unknown :action").background("#EA1B00") 
+            	puts ""
 	    	end
 	    end  
 

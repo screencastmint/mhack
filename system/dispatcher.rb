@@ -26,7 +26,9 @@ class Dispatcher
             techno = MhackmdWeb::WEB.new()
             techno.cmd
     	else
-    		puts "Unknown @techno !"
+    		 puts ""
+            puts Rainbow("/!\\ Unknown @techno !").background("#EA1B00") 
+            puts ""
     	end
 
     end
