@@ -1,9 +1,6 @@
 #--Mhack
 $mhack_folder = '/Path/To/Mhack/Folder'
 
-#Ref
-$mhack_ref = $mhack_folder+'/ref'
-
 #App path
 $editor_app = '/Path/To/Editor.app'
 
