@@ -1,5 +1,5 @@
 module MhackmdAll
-	class ALL
+	class All
 
 		def initialize
 			@action = Mhack::Dispatcher.new.get_action
