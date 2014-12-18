@@ -23,7 +23,20 @@ $movies_folder = '/Path/To/Movies/Folder'
 #Sites
 $sites_folder = '/Path/To/Local/Sites/Folder'
 
+
+#$php_folder = '/Path/To/Php/Folder'
 #$rails_folder = '/Path/To/Ruby\ On\ Rails/Folder'
+#$swift_folder = '/Path/To/Swift/Folder'
+#$oc_folder = '/Path/To/Objective-C/Folder'
+#$js_folder = '/Path/To/Javascript/Folder'
+#$c_folder = '/Path/To/C/Folder'
+#$cs_folder = '/Path/To/C\ Sharp/Folder'
+#$asp_folder = '/Path/To/Asp/Folder'
+#$cpp_folder = '/Path/To/C\ Plus\ Plus/Folder'
+#$django_folder = '/Path/To/Django/Folder'
+#$python_folder = '/Path/To/Python/Folder'
+#$java_folder = '/Path/To/Java/Folder'
+#$j2ee_folder = '/Path/To/J2EE/Folder'
 
 
 
