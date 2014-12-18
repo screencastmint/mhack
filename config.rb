@@ -22,7 +22,8 @@ $movies_folder = '/Path/To/Movies/Folder'
 
 #Sites
 $sites_folder = '/Path/To/Local/Sites/Folder'
-$rails_folder = '/Path/To/Ruby\ On\ Rails/Folder'
+
+#$rails_folder = '/Path/To/Ruby\ On\ Rails/Folder'
 
 
 

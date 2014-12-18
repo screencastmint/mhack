@@ -17,11 +17,12 @@ gem 'mhackmd_gem'
 #Mhackmd for editor commands
 gem 'mhackmd_editor'
 
-#Mhackmd for rails commands
-gem 'mhackmd_rails'
-
 #Mhackmd for web commands
 gem 'mhackmd_web'
+
+
+#Mhackmd for rails commands
+#gem 'mhackmd_rails'
 
 
 

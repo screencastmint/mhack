@@ -1,8 +1,7 @@
 require_relative 'config'
 require_relative 'mhack_modules'
 require_relative 'mhackmd_all'
-require_relative 'system/core'
-require_relative 'system/dispatcher'
+require_relative 'lib/dispatcher'
 require 'rubygems'
 require 'rainbow'
 require 'fileutils'
@@ -10,11 +9,10 @@ require 'fileutils'
 
 class Main
 	def main
-		d = Dispatcher.new()
-		d.dispatcher
+		Mhack::Dispatcher.new.pointer
 	end	
 end
 
-m = Main.new()
-m.main
+Main.new.main
+
 

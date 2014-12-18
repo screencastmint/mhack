@@ -59,9 +59,9 @@ By default, Mhack included some technologies. You can easily add or create other
 ***Technologies by default :***
 
  - **@all** => To see all technologies
+ - **@mac** => Commands for manage your mac
  - **@gem** => Commands for manage gem
  - **@editor** => Use default text editor
- - **@rails** => Ruby On Rails commands
  - **@web** => Use default browser
 
 
