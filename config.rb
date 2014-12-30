@@ -23,8 +23,8 @@ $movies_folder = '/Path/To/Movies/Folder'
 #Sites
 $sites_folder = '/Path/To/Local/Sites/Folder'
 
-
 #$php_folder = '/Path/To/Php/Folder'
+#$ruby_folder = '/Path/To/Ruby/Folder'
 #$rails_folder = '/Path/To/Ruby\ On\ Rails/Folder'
 #$swift_folder = '/Path/To/Swift/Folder'
 #$oc_folder = '/Path/To/Objective-C/Folder'

@@ -30,28 +30,13 @@ module Mhack
                     puts ""
                 else
 
-                    case about
-                    when "@all"
-                        t = MhackmdAll::All.new
-                     when "@mac"
-                        t = MhackmdMac::Mac.new
-                    when "@gem"
-                        t = MhackmdGem::Gem.new
-                    when "@editor"
-                        t = MhackmdEditor::Editor.new()
-                    when "@rails"
-                        t = MhackmdRails::Rails.new()
-                    when "@web"
-                        t = MhackmdWeb::Web.new()
-                    else
-                        puts ""
-                        puts Rainbow("/!\\ Unknown @techno !").background("#EA1B00") 
-                        puts ""
-                    end    
-
-                    if t
-                        t.launcher     
-                    end
+                    param_count = about.length - 1
+                    techno = about[1,param_count]
+                    cap = techno.capitalize
+                    concat = 'Mhackmd'+cap+'::'+cap+'.new'
+            
+                    t = eval(concat)
+                    t.launcher  
 
                 end
 
