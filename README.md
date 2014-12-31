@@ -21,7 +21,7 @@ Mhack is a small ruby script that includes a set of commands with the same logic
 ----------
 ***Mhack is :***
 
- - Useful in case of memory hole 
+ - Useful in case of blackout
  - Easy to use
  - Easy to understand
  - Easy to edit
