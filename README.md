@@ -82,6 +82,6 @@ To see all technologies :
  - **:open** => Open webpage, folder, file... with @techno
  
 
-To see Actions of a specific technology :
+To check Actions of a specific technology :
 
     > mhack @techno :help  
