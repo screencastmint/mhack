@@ -8,11 +8,11 @@ require 'fileutils'
 
 
 class Main
-	def main
+	def self.main
 		Mhack::Dispatcher.new.pointer
 	end	
 end
 
-Main.new.main
+Main.main
 
 

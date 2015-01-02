@@ -16,6 +16,7 @@ module Mhack
         end
 
 
+        #Instantiates mhackmd designated by @something
         def pointer
 
             if @techno
@@ -29,16 +30,11 @@ module Mhack
                     puts Rainbow("/!\\ You have to puts technologie prefixed by @").background("#EA1B00") 
                     puts ""
                 else
-
                     param_count = about.length - 1
-                    techno = about[1,param_count]
-                    cap = techno.capitalize
-                    concat = 'Mhackmd'+cap+'::'+cap+'.new'
-            
-                
+                    techno = about[1,param_count].capitalize
+                    concat = 'Mhackmd'+techno+'::'+techno+'.new'
                     t = eval(concat)
-                    t.launcher  
-
+                    t.launcher
                 end
 
             else
@@ -49,7 +45,7 @@ module Mhack
 
         end
 
-
+        # GETTERS
         def get_techno
             @techno
         end
