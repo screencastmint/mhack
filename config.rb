@@ -39,6 +39,18 @@ $sites_folder = '/Path/To/Local/Sites/Folder'
 #$j2ee_folder = '/Path/To/J2EE/Folder'
 
 
+#--Dock
+
+#List of dock modes (Capitalize Listname into array)
+	#$dockmode_list = ['Minimal', 'Main', '...']
+
+
+#Dock mode ($dockmode_listname = ['stuff.app', '...'])
+	#$dockmode_minimal = ['Utilities/Terminal.app','Firefox.app', '...']
+	#$dockmode_main = ['Utilities/Terminal.app','Opera.app', '...']
+
+
+
 
 
 
