@@ -31,7 +31,7 @@ gem 'mhackmd_brew'
 
 
 #Mhackmd for rails commands
-#gem 'mhackmd_rails'
+#gem 'mhackmd_desktop'
 
 
 
