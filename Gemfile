@@ -8,8 +8,14 @@ gem 'fileutils', '~> 0.7'
 
 #LIST OF MHACKMD
 
-#Mhackmd for gem commands
+#Mhackmd for mac commands
 gem 'mhackmd_mac'
+
+#Mhackmd for finder commands
+gem 'mhackmd_finder'
+
+#Mhackmd for dock commands
+gem 'mhackmd_dock'
 
 #Mhackmd for gem commands
 gem 'mhackmd_gem'
@@ -19,6 +25,9 @@ gem 'mhackmd_editor'
 
 #Mhackmd for web commands
 gem 'mhackmd_web'
+
+#Mhackmd for brew commands
+gem 'mhackmd_brew'
 
 
 #Mhackmd for rails commands
