@@ -25,6 +25,7 @@ Mhack is a small ruby script that includes a set of commands with the same logic
  - Easy to use
  - Easy to understand
  - Easy to edit
+ - Full of tricks
 
 
 ***Mhack is not :***
@@ -35,7 +36,7 @@ Mhack is a small ruby script that includes a set of commands with the same logic
 ----------
 
 
-Requirements : You need Mac and Ruby 2.x
+Requirements : You need Mac, Ruby 2.x and bundler
 
  1. Copy the folder where you want
  2. Run bundler from Mhack folder
@@ -60,9 +61,12 @@ By default, Mhack included some technologies. You can easily add or create other
 
  - **@all** => To see all technologies
  - **@mac** => Commands for manage your mac
+ - **@finder** => Commands for manage your finder
+ - **@dock** => Commands for manage your dock
  - **@gem** => Commands for manage gem
  - **@editor** => Use default text editor
  - **@web** => Use default browser
+
 
 
 
@@ -77,6 +81,7 @@ To see all technologies :
 
 ***Standard actions :***
 
+ - **:doc** => Launch github page of mhackmd @techno
  - **:help** => See the documentation of @techno
  - **:new** => Create project, file, document... with @techno 
  - **:open** => Open webpage, folder, file... with @techno
