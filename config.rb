@@ -1,6 +1,9 @@
 #App path
 $editor_app = '/Path/To/Editor.app'
 
+########################
+#--Path used by @finder
+########################
 
 #List of folders (Capitalize Listname into array)
 	#$path_list = ['Desktop', 'Images','Rails','...']
@@ -11,8 +14,9 @@ $editor_app = '/Path/To/Editor.app'
 	#$path_rails = '/Path/To/Rails'
 	#$path_... = '/Path/To/What/You/Want'
 
-
-#--Dock
+######################
+#--Dock used by @dock
+######################
 
 #List of dock modes (Capitalize Listname into array)
 	#$dockmode_list = ['Minimal', 'Main', '...']

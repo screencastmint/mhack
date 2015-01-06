@@ -13,6 +13,11 @@ Mhack is a small ruby script that includes a set of commands with the same logic
     > mhack @gem :new gem_name 
 
 
+#Screencast example (french)
+
+[How to use @dock](https://www.youtube.com/watch?v=uHuCRv2hloY)
+
+
  - **Techno** are prefixed by @
  - **Action** are prefixed by :
  - **Keyword** Capitalize the keyword
