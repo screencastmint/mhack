@@ -1,6 +1,16 @@
 #App path
 $editor_app = '/Path/To/Editor.app'
 
+##################
+#--Techno Aliases
+##################
+
+#List of aliases (lowercase)
+#$techno_aliases_list = ['sublime']
+
+#Match aliases
+	#$techno_sublime = 'editor'
+
 ########################
 #--Path used by @finder
 ########################
