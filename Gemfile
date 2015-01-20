@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 # Set text and background color on ruby console
 gem 'rainbow'
 
+gem 'rmagick', '>= 2.13.1'
+
 #Create, files, directory ...
 gem 'fileutils', '~> 0.7'
 
