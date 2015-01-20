@@ -1,5 +1,10 @@
-#App path
-$editor_app = '/Path/To/Editor.app'
+############
+#--App path
+############
+#$app_path = '/Path/To/App/Folder'
+
+# Path begin into app_path
+#$editor_app = '/Path/To/Editor.app'
 
 ##################
 #--Techno Aliases
