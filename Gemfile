@@ -11,25 +11,25 @@ gem 'fileutils', '~> 0.7'
 #################
 
 #Mhackmd for mac commands
-gem 'mhackmd_mac'
+gem 'mhackmd_mac',  '~>0.1.5'
 
 #Mhackmd for finder commands
-gem 'mhackmd_finder'
+gem 'mhackmd_finder', '~>1.0.0'
 
 #Mhackmd for dock commands
-gem 'mhackmd_dock'
+gem 'mhackmd_dock', '~>1.0.0'
 
 #Mhackmd for gem commands
-gem 'mhackmd_gem'
+gem 'mhackmd_gem', '~>0.1.1'
 
 #Mhackmd for editor commands
-gem 'mhackmd_editor'
+gem 'mhackmd_editor', '~>1.0.0'
 
 #Mhackmd for web commands
-gem 'mhackmd_web'
+gem 'mhackmd_web', '~>1.0.0'
 
 #Mhackmd for brew commands
-gem 'mhackmd_brew'
+gem 'mhackmd_brew', '~>0.1.0'
 
 
 #Mhackmd for rails commands
