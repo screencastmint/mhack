@@ -37,9 +37,9 @@
 	#$dockmode_list = ['Minimal', 'Main', '...']
 
 
-#Dock mode ($dockmode_listname = ['stuff.app', '...'])
-	#$dockmode_minimal = ['Utilities/Terminal.app','Firefox.app', '...']
-	#$dockmode_main = ['Utilities/Terminal.app','Opera.app', '...']
+#Dock mode ($dockmode_listname = ['/stuff.app', '...'])
+	#$dockmode_minimal = ['/Utilities/Terminal.app','/Firefox.app', '...']
+	#$dockmode_main = ['/Utilities/Terminal.app','/Opera.app', '...']
 
 
 
