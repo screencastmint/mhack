@@ -42,7 +42,7 @@ Mhack is a small ruby script that includes a set of commands with the same logic
 ----------
 
 
-Requirements : You need Mac, Ruby 2.x and bundler
+Requirements : You need Mac, Ruby 2.x, bundler and imagemagick
 
  1. Copy the folder where you want
  2. Run bundler from Mhack folder
