@@ -27,6 +27,8 @@ module MhackmdAll
 	        puts Rainbow("LIST OF STANDARD TECHNOLOGIES").underline    
 	        puts ""
 	        puts Rainbow("@mac").color("#58B555")+"                 Commands for manage your mac"
+	        puts Rainbow("@finder").color("#58B555")+"              Commands for manage your finder"
+	        puts Rainbow("@dock").color("#58B555")+"                Commands for manage your dock"
 	        puts Rainbow("@gem").color("#58B555")+"                 Commands for manage gem"
 	        puts Rainbow("@editor").color("#58B555")+"              Call your text editor defined into config.rb"
 	        puts Rainbow("@web").color("#58B555")+"                 Commands for your web browser"
