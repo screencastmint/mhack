@@ -15,7 +15,7 @@ Mhack is a small ruby script that includes a set of commands with the same logic
 
 #Screencast example (french)
 
-:movie_camera: [How to use @dock](https://www.youtube.com/watch?v=uHuCRv2hloY)
+:movie_camera: [How to use mhack](http://youtu.be/8NVGhwxjf-o?list=PLFAyy8h1mxDyqqTcCQ9wMzCxdFC6exthx)
 
 
 
