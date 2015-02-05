@@ -6,7 +6,6 @@ require 'rubygems'
 require 'rainbow'
 require 'fileutils'
 
-
 class Main
 	def self.main
 		Mhack::Dispatcher.new.pointer

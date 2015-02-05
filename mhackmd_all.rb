@@ -6,9 +6,7 @@ module MhackmdAll
 			@params = Mhack::Dispatcher.new.params
 		end
 
-
 	    def launcher
-
 	    	case @action
 	    	when ":help"
 	    		help
@@ -18,7 +16,6 @@ module MhackmdAll
             	puts ""
 	    	end
 	    end  
-
 
 	    # > mhack @all :help
 	    def help
@@ -36,6 +33,5 @@ module MhackmdAll
 
 	        # Add the list of using techno to remember
 	    end
-
 	end
 end
