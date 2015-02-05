@@ -1,0 +1,29 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    fileutils (0.7)
+      rmagick (>= 2.13.1)
+    mhackmd_brew (0.2.0)
+    mhackmd_dock (1.1.0)
+    mhackmd_editor (1.1.0)
+    mhackmd_finder (1.1.0)
+    mhackmd_gem (0.2.0)
+    mhackmd_mac (0.2.0)
+    mhackmd_web (1.1.0)
+    rainbow (2.0.0)
+    rmagick (2.13.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  fileutils (~> 0.7)
+  mhackmd_brew (~> 0.2.0)
+  mhackmd_dock (~> 1.1.0)
+  mhackmd_editor (~> 1.1.0)
+  mhackmd_finder (~> 1.1.0)
+  mhackmd_gem (~> 0.2.0)
+  mhackmd_mac (~> 0.2.0)
+  mhackmd_web (~> 1.1.0)
+  rainbow
+  rmagick (>= 2.13.1)

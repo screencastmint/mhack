@@ -2,8 +2,8 @@ module MhackmdAll
 	class All
 
 		def initialize
-			@action = Mhack::Dispatcher.new.get_action
-			@params = Mhack::Dispatcher.new.get_params
+			@action = Mhack::Dispatcher.new.action
+			@params = Mhack::Dispatcher.new.params
 		end
 
 
