@@ -1,6 +1,6 @@
 module Mhack
     class Dispatcher
-
+        attr_reader :techno, :action, :params 
         def initialize
             @techno = ARGV[0]
             @action = ARGV[1]
@@ -64,19 +64,6 @@ module Mhack
                 puts ""
             end 
 
-        end
-
-        # GETTERS
-        def get_techno
-            @techno
-        end
-
-        def get_action
-            @action
-        end
-
-        def get_params
-            @params
         end
     end
 end
