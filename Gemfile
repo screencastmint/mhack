@@ -16,7 +16,7 @@ gem 'fileutils', '~> 0.7'
 gem 'mhackmd_mac',  '~>0.2.0'
 
 #Mhackmd for finder commands
-gem 'mhackmd_finder', '~>1.1.0'
+gem 'mhackmd_finder', '~>1.1.1'
 
 #Mhackmd for dock commands
 gem 'mhackmd_dock', '~>1.1.0'
