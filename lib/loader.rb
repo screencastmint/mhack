@@ -1,0 +1,8 @@
+require_relative '../config'
+require_relative '../mhack_modules'
+require_relative '../mhackmd_all'
+require_relative 'helper'
+require_relative 'router'
+require 'rubygems'
+require 'rainbow'
+require 'fileutils'

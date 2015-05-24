@@ -1,15 +1,9 @@
-require_relative 'config'
-require_relative 'mhack_modules'
-require_relative 'mhackmd_all'
-require_relative 'lib/mhack'
-require 'rubygems'
-require 'rainbow'
-require 'fileutils'
+require_relative 'lib/loader'
 
 class Main
-	def self.main
-		Mhack::Dispatcher.new.pointer
-	end	
+  def self.main
+    Router.new.dispatcher
+  end 
 end
 
 Main.main
