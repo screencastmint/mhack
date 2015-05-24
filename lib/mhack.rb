@@ -1,4 +1,4 @@
-class Router 
+class Mhack
     attr_reader :techno, :action, :params, :helper 
 
     def initialize
@@ -16,7 +16,7 @@ class Router
     end
 
     #Instantiates mhackmd designated by @something
-    def dispatcher
+    def router
         if @techno && @techno == "@aliases"
             if @action == ":show"
                 @helper.render_message($techno_aliases_list)

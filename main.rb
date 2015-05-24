@@ -2,7 +2,7 @@ require_relative 'lib/loader'
 
 class Main
   def self.main
-    Router.new.dispatcher
+    Mhack.new.router
   end 
 end
 
