@@ -17,4 +17,8 @@ class Helper
   def render_action_error
       render_message(Rainbow("/!\\ Unknow :action").background("#EA1B00"))
   end
+
+  def render_keyword_error
+    render_message(Rainbow("/!\\ Unknown Keyword").background("#EA1B00"))
+  end
 end
