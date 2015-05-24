@@ -1,9 +1,13 @@
 class Helper
+
+  def render_line
+    puts "-"*50
+  end
   
   def render_message(message)
-      puts ""
-      puts message
-      puts ""
+    render_line
+    puts message
+    render_line
   end
 
   def render_techno_error
