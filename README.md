@@ -75,11 +75,6 @@ By default, Mhack included some technologies. You can easily add or create other
 
 
 
-
-To see all technologies :
-
-    > mhack @all :help  
-
  ----------
 
 #Actions
