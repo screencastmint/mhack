@@ -27,11 +27,11 @@ class Helper
   end
 
   def render_techno_error
-      render_alert_message("/!\\ You have to puts technologie prefixed by @")
+    render_alert_message("/!\\ You have to puts technologie prefixed by @")
   end
 
   def render_action_error
-      render_alert_message("/!\\ Unknow :action")
+    render_alert_message("/!\\ Unknow :action")
   end
 
   def render_keyword_error

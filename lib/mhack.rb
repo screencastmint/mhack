@@ -17,12 +17,12 @@ class Mhack
 
     #Instantiates mhackmd designated by @something
     def router
-        if @techno && @techno == "@aliases"
-            if @action == ":show"
-                @helper.render_message($techno_aliases_list)
-            else
-                @helper.render_action_error
-            end
+        if @techno && @techno == "@aliases" && @action == ":show"
+            @helper.render_message($techno_aliases_list)
+        # @aliases alone render error
+        elsif @techno && @techno == "@aliases"
+            @helper.render_action_error
+        # redirect to @something ...
         elsif @techno && @techno[0] == "@"
             param_count = @techno.length - 1
             param_name = @techno[1,param_count]
