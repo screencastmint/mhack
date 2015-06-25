@@ -1,18 +1,14 @@
 class Mhack
-    attr_reader :techno, :action, :params, :helper 
+    attr_reader :techno, :action, :params, :helper
 
     def initialize
         @techno = ARGV[0]
         @action = ARGV[1]
-        reader = ARGV.length
         @params = Array.new
         @helper = Helper.new
+        argv_size = ARGV.length
 
-        i = 2
-        while i < reader  do
-           @params.push ARGV[i]
-           i += 1
-        end
+        2.upto(argv_size) { |i| @params.push ARGV[i] }
     end
 
     #Instantiates mhackmd designated by @something
@@ -26,13 +22,10 @@ class Mhack
         elsif @techno && @techno[0] == "@"
             param_count = @techno.length - 1
             param_name = @techno[1,param_count]
-            get_techno = '$techno_'+param_name
-            launch_techno = eval(get_techno)
+            launch_techno = "$techno_#{param_name}".constantize
 
             techno = launch_techno ? (launch_techno.capitalize) : (param_name.capitalize)
-
-            instantiate = 'Mhackmd'+techno+'::'+techno+'.new'
-            eval(instantiate).launcher
+            "Mhackmd#{techno}::#{techno}".constantize.new.launcher
         else
             @helper.render_techno_error
         end
